@@ -26,7 +26,7 @@ Tested on CPU — ONNX Runtime (`ORT_ENABLE_ALL`, 4 threads), 15 runs per image.
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/visiondrop
+git clone https://github.com/protaatoo/visiondrop
 cd visiondrop
 docker compose up --build
 ```
