@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# YOLO downloads (large files, not needed in repo)
+*.pt
+
+# Node
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark images (optional — add your own)
+backend/benchmark_images/
