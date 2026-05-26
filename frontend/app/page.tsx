@@ -7,7 +7,7 @@ import StatsPanel from "./components/StatsPanel";
 import WebcamStream from "./components/Webcam";
 import LatencyGraph from "./components/LatencyGraph";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "";
 
 interface Detection {
   label: string;
