@@ -1,0 +1,12 @@
+{
+  "yolov8n_ppe": {
+    "classes": [
+      "head",
+      "helmet",
+      "person"
+    ],
+    "nc": 3,
+    "mAP50": 0.643,
+    "description": "PPE Safety Detection \u2014 head, helmet, person"
+  }
+}

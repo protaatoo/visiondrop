@@ -7,7 +7,7 @@ import StatsPanel from "./components/StatsPanel";
 import WebcamStream from "./components/Webcam";
 import LatencyGraph from "./components/LatencyGraph";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 interface Detection {
   label: string;
@@ -27,7 +27,7 @@ type Tab = "upload" | "webcam";
 
 export default function Home() {
   const [tab, setTab] = useState<Tab>("upload");
-  const [model, setModel] = useState<"yolov8n" | "yolov8s">("yolov8n");
+  const [model, setModel] = useState<"yolov8n" | "yolov8s" | "yolov8n_ppe">("yolov8n");
   const [confThreshold, setConfThreshold] = useState(0.25);
 
   // Upload tab state

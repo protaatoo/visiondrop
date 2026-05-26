@@ -11,7 +11,7 @@ interface Detection {
 }
 
 interface Props {
-  model: "yolov8n" | "yolov8s";
+  model: "yolov8n" | "yolov8s" | "yolov8n_ppe";
   confThreshold: number;
   onStats: (ms: number, count: number) => void;
 }
