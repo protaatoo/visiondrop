@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState, useCallback } from "react";
 
-const WS_URL = process.env.NEXT_PUBLIC_WS_URL || "";
+const WS_URL = typeof window !== "undefined" && window.location.hostname !== "localhost" ? "" : "ws://localhost:8000";
 const FRAME_INTERVAL_MS = 100; // send a frame every 100ms = ~10fps
 
 interface Detection {
