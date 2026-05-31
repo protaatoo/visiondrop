@@ -9,6 +9,8 @@ pinned: false
 
 # VisionDrop
 
+**[🔴 Live Demo](https://Protaatoo-visiondrop.hf.space)**
+
 Real-time object detection platform powered by YOLOv8 + ONNX Runtime.
 
 Upload an image or stream your webcam — get bounding boxes, confidence scores, and inference stats instantly.
